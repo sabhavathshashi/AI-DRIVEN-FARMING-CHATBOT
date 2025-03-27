@@ -1,4 +1,3 @@
-# GDG-SOLUTION-CHALLENGE
 # AI-Powered Farming Chatbot
 
 ## Overview
@@ -23,6 +22,11 @@ This chatbot assists modern and local farmers, especially those familiar with AI
 - Stores project files and manages updates efficiently.
 - Enables team-based contributions and issue tracking.
 
+### 4️⃣ Streamlit Cloud
+- A free cloud hosting platform for deploying Streamlit applications.
+- Allows public access to the chatbot without complex infrastructure setup.
+- Provides seamless updates when pushing changes to GitHub.
+
 ---
 
 ## Workflow & Implementation
@@ -39,7 +43,7 @@ This chatbot assists modern and local farmers, especially those familiar with AI
 ## Prerequisites
 
 ### Installing Streamlit for Local Hosting
-Streamlit is used to deploy the chatbot locally before cloud deployment.
+Streamlit is used to deploy the chatbot locally before hosting it on Streamlit Cloud.
 
 **Installation Steps:**
 1. Ensure you have **Python** installed (version 3.8 or higher recommended).
@@ -55,6 +59,15 @@ Streamlit is used to deploy the chatbot locally before cloud deployment.
    ```bash
    streamlit run app.py
    ```
+
+---
+
+## Deployment on Streamlit Cloud
+1. Push your chatbot code to GitHub.
+2. Go to [Streamlit Cloud](https://share.streamlit.io/) and sign in with GitHub.
+3. Click **"New App"**, select your **GitHub repository**, and choose `app.py` as the entry point.
+4. Click **"Deploy"**—your chatbot will be live with a public URL.
+5. Share the link so farmers can access it anytime!
 
 ---
 
@@ -81,4 +94,3 @@ Streamlit is used to deploy the chatbot locally before cloud deployment.
 
 ## License
 This project is open-source and available under the MIT License.
-
