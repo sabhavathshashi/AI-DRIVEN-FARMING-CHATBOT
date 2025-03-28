@@ -66,7 +66,7 @@ for message in st.session_state.message:
     st.markdown(f'<div class="chat-bubble {role_class}">{message["content"]}</div>', unsafe_allow_html=True)
 st.write('</div>', unsafe_allow_html=True)
 
-if prompt := st.chat_input('ASK ANY QUERY FOR RELATED TO ORGANIC FARMING?'):
+if prompt := st.chat_input('HAVE A QUERY ABOUT ORGANIC FARMING? PLEASE ASK !!!'):
     st.session_state.message.append({'role': 'user', 'content': prompt})
 
     st.write('<div class="chat-container">', unsafe_allow_html=True)
